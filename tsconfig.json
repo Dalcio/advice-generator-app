@@ -13,7 +13,20 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "components": ["src/components"],
+      "components/*": ["src/components/*"],
+      "store": ["src/store"],
+      "assets/*": ["src/assets/*"],
+      "theme": ["src/theme"],
+      "theme/*": ["src/theme/*"],
+      "constants": ["src/constants"],
+      "constants/*": ["src/constants/*"],
+      "hooks": ["src/hooks"],
+      "hooks/*": ["src/hooks/*"]
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
