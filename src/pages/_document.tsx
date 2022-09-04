@@ -12,6 +12,14 @@ export default function Document() {
         />
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="shortcut icon" href="/images/favicon-32x32.png" />
+        <meta
+          name="description"
+          content="Listen to my Advice? Random Advice Generator App is here to advice you."
+        />
+        <meta
+          name="keywords"
+          content="Advice, Advice Generator, Advice Generator, Advice Generator App"
+        />
       </Head>
       <body>
         <Main />
