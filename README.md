@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [advice-generator-app](https://github.com/Dalcio/advice-generator-app)
-- Live Site URL: [Advice Generator App](https://advice-generator-app-taupe-beta.vercel.app/)
+- Live Site URL: [Advice Generator App](http://get-advice.vercel.app)
 
 ## My process
 
