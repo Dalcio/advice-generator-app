@@ -5,10 +5,8 @@
 //   }
 //   }
 
-export default function HomePage() {
-  return (
-    <>
-      <h1>Advice generator</h1>
-    </>
-  );
-}
+import AdviceCad from 'components/AdviceCard';
+
+const HomePage = () => <AdviceCad />;
+
+export default HomePage;
