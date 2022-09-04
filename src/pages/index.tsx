@@ -1,12 +1,5 @@
-// {
-//   slip: {
-//   id: 206,
-//   advice: "Don't waste food."
-//   }
-//   }
+import AdviceCard from 'components/AdviceCard';
 
-import AdviceCad from 'components/AdviceCard';
-
-const HomePage = () => <AdviceCad />;
+const HomePage = () => <AdviceCard />;
 
 export default HomePage;

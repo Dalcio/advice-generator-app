@@ -2,11 +2,11 @@
 import useAdvice from './AdviceCard.hook';
 import { AdviceCardContainer } from './AdviceCard.styles';
 
-const AdviceCad = () => {
+const AdviceCard = () => {
   const { advice, generateNewAdvice } = useAdvice();
 
   return (
-    advice && (
+    (advice && (
       <AdviceCardContainer>
         <div className="advice-number">advice {`#${advice.id}`}</div>
         <div className="advice flex">{`"${advice.advice}"`}</div>
@@ -16,8 +16,9 @@ const AdviceCad = () => {
         </picture>
         <button type="button" onClick={generateNewAdvice} />
       </AdviceCardContainer>
-    )
+    )) ||
+    null
   );
 };
 
-export default AdviceCad;
+export default AdviceCard;

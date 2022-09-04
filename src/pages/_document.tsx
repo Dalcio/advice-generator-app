@@ -18,7 +18,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="Advice, Advice Generator, Advice Generator, Advice Generator App"
+          content="Advice, Advice Generator, Advice Generator, Advice Generator App, Advices, Get Advice"
         />
       </Head>
       <body>
