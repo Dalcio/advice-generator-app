@@ -2,13 +2,8 @@
 import useAdvice from './AdviceCard.hook';
 import { AdviceCardContainer } from './AdviceCard.styles';
 
-type Advice = {
-  id: number;
-  advice: string;
-};
-
 const AdviceCad = () => {
-  const { advice, generateNewAdvice } = useAdvice<Advice>();
+  const { advice, generateNewAdvice } = useAdvice();
 
   return (
     advice && (

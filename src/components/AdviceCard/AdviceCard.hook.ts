@@ -2,7 +2,12 @@ import { useLayoutEffect, useState } from 'react';
 
 const APP_NAME = 'advice-generator-app';
 
-export default function useAdvice<Advice = {}>() {
+type Advice = {
+  id: number;
+  advice: string;
+};
+
+const useAdvice = () => {
   const [advice, setAdvice] = useState<Advice>();
 
   const generateNewAdvice = async () => {
@@ -23,7 +28,7 @@ export default function useAdvice<Advice = {}>() {
       const data = localStorage.getItem(APP_NAME);
 
       if (data) {
-        setAdvice(JSON.parse(data) as Advice);
+        setAdvice(JSON.parse(data) as any);
       } else {
         generateNewAdvice();
       }
@@ -34,4 +39,6 @@ export default function useAdvice<Advice = {}>() {
     advice,
     generateNewAdvice,
   };
-}
+};
+
+export default useAdvice;
