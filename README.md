@@ -51,4 +51,4 @@ Users should be able to:
 
 - Website - [Dálcio Garcia](https://dalciogarcia.vercel.app)
 - Frontend Mentor - [@Dalcio](https://www.frontendmentor.io/profile/dalcio)
-- Linkedin - [dalcio](https://www.linkedin.com/in/dalcio)
+- Linkedin - [dalcio-garcia](https://www.linkedin.com/in/dalcio-garcia)
